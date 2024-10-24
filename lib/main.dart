@@ -13,7 +13,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   // initialize Google Gemini AI
-  Gemini.init(apiKey: 'AIzaSyAamZnC3rXzQKNLwC_8ju0p-ScLylh9JEE');
+  Gemini.init(apiKey: 'API-KEY');
 
   // initialize dependency injection
   await initDI();
